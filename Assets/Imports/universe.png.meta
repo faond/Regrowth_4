@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: 594035dcd86b83f4a887b66854e585ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8510894300698433875
+    second: universe_0
+  - first:
+      213: 5268135067370948579
+    second: universe_1
+  - first:
+      213: -6186499227512339376
+    second: universe_2
+  - first:
+      213: 6745468236150255334
+    second: universe_3
+  - first:
+      213: -2425333779317376729
+    second: universe_4
+  - first:
+      213: 7302363006222935833
+    second: universe_5
+  - first:
+      213: 6328321720378385828
+    second: universe_6
+  - first:
+      213: 7321619659774935315
+    second: universe_7
+  - first:
+      213: -6088928212429295911
+    second: universe_8
+  - first:
+      213: -2508535161746758313
+    second: universe_9
+  - first:
+      213: -9123972350683787985
+    second: universe_10
+  - first:
+      213: -8246890381875771096
+    second: universe_11
+  - first:
+      213: -2980283254929316889
+    second: universe_12
+  - first:
+      213: -3265621053258180107
+    second: universe_13
+  - first:
+      213: -7690281011037108301
+    second: universe_14
+  - first:
+      213: 167474995420193676
+    second: universe_15
+  - first:
+      213: -4415844943236121775
+    second: universe_16
+  - first:
+      213: -6505897954284776397
+    second: universe_17
+  - first:
+      213: 3340622042095161291
+    second: universe_18
+  - first:
+      213: -6723294249895262515
+    second: universe_19
+  - first:
+      213: -609176823976807681
+    second: universe_20
+  - first:
+      213: -8080348659106525044
+    second: universe_21
+  - first:
+      213: -3816653295736642441
+    second: universe_22
+  - first:
+      213: -8598199065608703291
+    second: universe_23
+  - first:
+      213: -4849511923888829858
+    second: universe_24
+  - first:
+      213: 5614512607695616620
+    second: universe_25
+  - first:
+      213: -4306850150242797324
+    second: universe_26
+  - first:
+      213: -917095738152049693
+    second: universe_27
+  - first:
+      213: -880570531446202577
+    second: universe_28
+  - first:
+      213: -1841723453046082949
+    second: universe_29
+  - first:
+      213: 3426834997653066661
+    second: universe_30
+  - first:
+      213: -6988409442940887448
+    second: universe_31
+  - first:
+      213: 377487573239277440
+    second: universe_32
+  - first:
+      213: 7628396101227953361
+    second: universe_33
+  - first:
+      213: -2434212086711141026
+    second: universe_34
+  - first:
+      213: -3871171831921977185
+    second: universe_35
+  - first:
+      213: -227195200688477568
+    second: universe_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: universe_2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 901
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05406e4eab3252aa0800000000000000
+      internalID: -6186499227512339376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 901
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eeaa6b2f97bc9d50800000000000000
+      internalID: 6745468236150255334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_10
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 601
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dc109ec73216180800000000000000
+      internalID: -9123972350683787985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_11
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 601
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82985be34e82d8d80800000000000000
+      internalID: -8246890381875771096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_12
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 601
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3a4eb7b28e3a6d0800000000000000
+      internalID: -2980283254929316889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_13
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 601
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9528d34fe2ea2d0800000000000000
+      internalID: -3265621053258180107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_14
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 601
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b783325a22a64590800000000000000
+      internalID: -7690281011037108301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_15
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 601
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83e7cafe9df25200800000000000000
+      internalID: 167474995420193676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_18
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 301
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf0ce34c064c5e20800000000000000
+      internalID: 3340622042095161291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_19
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 301
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc60192508f02b2a0800000000000000
+      internalID: -6723294249895262515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_20
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 301
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff23679f7e4cb87f0800000000000000
+      internalID: -609176823976807681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_21
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 301
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80d6a0c4b5dcdf80800000000000000
+      internalID: -8080348659106525044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_22
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 301
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7742bcc8c06880bc0800000000000000
+      internalID: -3816653295736642441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_23
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 301
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c23c4a418f0da880800000000000000
+      internalID: -8598199065608703291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_24
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 301
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ac59a599213bcb0800000000000000
+      internalID: -4849511923888829858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a36a04871caed40800000000000000
+      internalID: 5614512607695616620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8b0f56b9efa34c0800000000000000
+      internalID: -4306850150242797324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_28
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fd87164c597c3f0800000000000000
+      internalID: -880570531446202577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_29
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72beaef642e076e0800000000000000
+      internalID: -1841723453046082949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_30
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3dcf236409e8f20800000000000000
+      internalID: 3426834997653066661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_31
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ed58843ae240f90800000000000000
+      internalID: -6988409442940887448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_32
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0872d06a2fa1d3500800000000000000
+      internalID: 377487573239277440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_33
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcbaab46d18dd960800000000000000
+      internalID: 7628396101227953361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_34
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dbe9f0101f73ed0800000000000000
+      internalID: -2434212086711141026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_35
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98dacdaab5d64ac0800000000000000
+      internalID: -3871171831921977185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: universe_36
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 1
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a2a403b27d8dcf0800000000000000
+      internalID: -227195200688477568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
