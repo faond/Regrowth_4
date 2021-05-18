@@ -6,14 +6,13 @@ public class TransformationParent : MonoBehaviour
   public Animator animator;
   public Animator animatorChild;
   public GetTransformed child;
-  public bool wilt = true;
   public float timer = -1 ;
   public bool timerIsRunning = false;
 
   public void Update(){
     if (timerIsRunning)
         {
-          if (timer > 0 && !wilt)
+          if (timer > 0 && gameObject.tag == "Bloom")
           {
               timer -= Time.deltaTime;
           }
@@ -21,7 +20,7 @@ public class TransformationParent : MonoBehaviour
           {
             animator.SetTrigger("Wilt");
             animatorChild.SetTrigger("Wilt");
-            wilt = true;
+            gameObject.tag = "Wilt";
             timer = -1;
             timerIsRunning = false;
           }
@@ -33,11 +32,11 @@ public class TransformationParent : MonoBehaviour
 
   private void OnCollisionEnter2D(Collision2D collision)
   {
-      if(collision.transform.CompareTag("Player") && wilt)
+      if(collision.transform.CompareTag("Player") && gameObject.tag == "Wilt")
       {
         animator.SetTrigger("Bloom");
         animatorChild.SetTrigger("Bloom");
-        wilt = false;
+        gameObject.tag = "Bloom";
         timer = 5;
         timerIsRunning = true;
       }

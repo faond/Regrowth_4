@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 338783332918289443}
   m_Layer: 0
   m_Name: LaddersMiddle
-  m_TagString: Untagged
+  m_TagString: Wilt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,4 +143,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 8589717054219054873}
-  wilt: 1

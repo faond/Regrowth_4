@@ -16,8 +16,8 @@ GameObject:
   - component: {fileID: 2012453382}
   - component: {fileID: 2012453381}
   m_Layer: 0
-  m_Name: Case
-  m_TagString: Untagged
+  m_Name: CaseSolo
+  m_TagString: Wilt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -189,3 +189,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 2012453382}
   wilt: 1
+  timer: -1
+  timerIsRunning: 0

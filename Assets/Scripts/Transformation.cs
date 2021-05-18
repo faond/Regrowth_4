@@ -4,21 +4,20 @@ public class Transformation : MonoBehaviour
 {
 
   public Animator animator;
-  public bool wilt = true;
   public float timer = -1 ;
   public bool timerIsRunning = false;
 
   public void Update(){
     if (timerIsRunning)
         {
-          if (timer > 0 && !wilt)
+          if (timer > 0 && gameObject.tag == "Bloom")
           {
               timer -= Time.deltaTime;
           }
           else
           {
             animator.SetTrigger("Wilt");
-            wilt = true;
+            gameObject.tag = "Wilt";
             timer = -1;
             timerIsRunning = false;
           }
@@ -28,10 +27,10 @@ public class Transformation : MonoBehaviour
 
   private void OnCollisionEnter2D(Collision2D collision)
   {
-      if(collision.transform.CompareTag("Player") && wilt)
+      if(collision.transform.CompareTag("Player") && gameObject.tag == "Wilt")
       {
         animator.SetTrigger("Bloom");
-        wilt = false;
+        gameObject.tag = "Bloom";
         timer = 5;
         timerIsRunning = true;
 

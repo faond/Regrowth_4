@@ -5,7 +5,6 @@ public class LadderTransform : MonoBehaviour
 
   public Animator animator;
   private PlayerMovement playerMovement;
-  public bool wilt = true;
 
   void Awake()
   {
@@ -14,20 +13,20 @@ public class LadderTransform : MonoBehaviour
 
   private void OnTriggerEnter2D(Collider2D collision)
   {
-      if(collision.transform.CompareTag("Player") && wilt && playerMovement.isClimbing)
+      if(collision.transform.CompareTag("Player") && gameObject.tag == "Wilt" && playerMovement.isClimbing)
       {
         animator.SetTrigger("Bloom");
-        wilt = false;
+        gameObject.tag = "Bloom";
       }
 
   }
 
   private void OnTriggerStay2D(Collider2D collision)
   {
-      if(collision.transform.CompareTag("Player") && wilt && playerMovement.isClimbing)
+      if(collision.transform.CompareTag("Player") && gameObject.tag == "Wilt" && playerMovement.isClimbing)
       {
         animator.SetTrigger("Bloom");
-        wilt = false;
+        gameObject.tag = "Bloom";
       }
 
   }
