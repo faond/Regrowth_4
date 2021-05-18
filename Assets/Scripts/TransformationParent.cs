@@ -1,9 +1,11 @@
 using UnityEngine;
 
-public class Transformation : MonoBehaviour
+public class TransformationParent : MonoBehaviour
 {
 
   public Animator animator;
+  public Animator animatorChild;
+  public GetTransformed child;
   public bool wilt = true;
 
 
@@ -12,10 +14,12 @@ public class Transformation : MonoBehaviour
       if(collision.transform.CompareTag("Player") && wilt)
       {
         animator.SetTrigger("Bloom");
+        animatorChild.SetTrigger("Bloom");
         wilt = false;
       }
       /*else if(collision.transform.CompareTag("Player") && !wilt){
         animator.SetTrigger("Wilt");
+        animatorChild.SetTrigger("Wilt");
         wilt = true;
       }*/
 

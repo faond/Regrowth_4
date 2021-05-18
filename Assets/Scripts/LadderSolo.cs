@@ -4,9 +4,10 @@ using UnityEngine.UI;
 public class LadderSolo : MonoBehaviour
 {
 
-    private  bool isInRange;
+    private bool isInRange;
     private PlayerMovement playerMovement;
     public Text interactUI;
+    public bool wilt = true;
 
     void Awake()
     {
@@ -25,6 +26,7 @@ public class LadderSolo : MonoBehaviour
 
       if(isInRange && Input.GetKeyDown(KeyCode.E)){//monter à l'échelle
           playerMovement.isClimbing = true;
+          wilt = false;
       }
     }
 
