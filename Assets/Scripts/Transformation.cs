@@ -31,6 +31,8 @@ public class Transformation : MonoBehaviour
       {
         animator.SetTrigger("Bloom");
         gameObject.tag = "Bloom";
+        // UTILISATION DE LA VARIABLE difficulty
+        // SettingsMenu.instance.difficultySlider.value
         timer = 5;
         timerIsRunning = true;
 

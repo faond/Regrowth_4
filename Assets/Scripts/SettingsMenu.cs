@@ -10,8 +10,22 @@ public class SettingsMenu : MonoBehaviour
     public Dropdown resolutionDropdown;
     Resolution[] resolutions;
 
-    public Slider musicSlider;
-    public Slider soundSlider;
+    //public Slider musicSlider;
+    //public Slider soundSlider;
+    public Slider difficultySlider;
+
+
+    public static SettingsMenu instance ;
+
+    private void Awake()
+    {
+        if(instance != null){
+          Debug.LogWarning("Il y a plus d'un SettingsMenu");
+          return ;
+        }
+        instance = this;
+    }
+
 
 
     public void Start()
@@ -48,6 +62,11 @@ public class SettingsMenu : MonoBehaviour
     public void SetSoundVolume(float volume)
     {
         audioMixer.SetFloat("Sound", volume);
+    }
+
+    public void SetDifficulty(float difficulty)
+    {
+        difficultySlider.value = difficulty;
     }
 
     public void SetFullScreen(bool isFullScreen)

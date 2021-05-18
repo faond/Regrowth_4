@@ -6,7 +6,6 @@ public class LifePopping : MonoBehaviour
 {
     private List<Vector2> positions = new List<Vector2>();
     public GameObject[] lifeMarkers;
-    public bool lifeMustPop = false;
     public GameObject lifeBulb;
 
     //Random
@@ -24,12 +23,12 @@ public class LifePopping : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(lifeMustPop){
-            // int randIndex = rand.next(positions.Count - 1);
-            int randIndex = 0;
+        if(RandomManager.instance.lifeMustPop && positions.Count > 0){
+            int randIndex = Random.Range(0,positions.Count);
             Instantiate(lifeBulb, new Vector3(positions[randIndex].x,positions[randIndex].y,0), new Quaternion(0,0,0,0));
-            lifeMustPop = false;
+            RandomManager.instance.lifeMustPop = false;
+            positions.RemoveAt(randIndex);
         }
 
     }
-} 
+}
