@@ -1,0 +1,35 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class LifePopping : MonoBehaviour
+{
+    private List<Vector2> positions = new List<Vector2>();
+    public GameObject[] lifeMarkers;
+    public bool lifeMustPop = false;
+    public GameObject lifeBulb;
+
+    //Random
+    Random rand = new Random();
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        for (int i=0; i < lifeMarkers.Length; i++) {
+            Vector2 position = new Vector2(lifeMarkers[i].transform.position[0], lifeMarkers[i].transform.position[1]);
+            positions.Add(position);
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(lifeMustPop){
+            // int randIndex = rand.next(positions.Count - 1);
+            int randIndex = 0;
+            Instantiate(lifeBulb, new Vector3(positions[randIndex].x,positions[randIndex].y,0), new Quaternion(0,0,0,0));
+            lifeMustPop = false;
+        }
+
+    }
+} 
