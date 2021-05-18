@@ -2,11 +2,32 @@
 
 public class LadderTransform : MonoBehaviour
 {
-  private void OnCollisionEnter2D(Collision2D collision)
+
+  public Animator animator;
+  private PlayerMovement playerMovement;
+  public bool wilt = true;
+
+  void Awake()
   {
-      if(collision.transform.CompareTag("Player"))
+      playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
+  }
+
+  private void OnTriggerEnter2D(Collider2D collision)
+  {
+      if(collision.transform.CompareTag("Player") && wilt && playerMovement.isClimbing)
       {
-        Debug.Log("Il y a plus d'un PlayerMovement");
+        animator.SetTrigger("Bloom");
+        wilt = false;
+      }
+
+  }
+
+  private void OnTriggerStay2D(Collider2D collision)
+  {
+      if(collision.transform.CompareTag("Player") && wilt && playerMovement.isClimbing)
+      {
+        animator.SetTrigger("Bloom");
+        wilt = false;
       }
 
   }

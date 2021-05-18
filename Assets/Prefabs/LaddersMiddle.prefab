@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2942063613597955330}
   - component: {fileID: 2436346619943364297}
   - component: {fileID: 8589717054219054873}
+  - component: {fileID: 338783332918289443}
   m_Layer: 0
   m_Name: LaddersMiddle
   m_TagString: Untagged
@@ -129,3 +130,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &338783332918289443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4871651314002322183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904a167226d57486989a6ae2cfb4a984, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 8589717054219054873}
+  wilt: 1
