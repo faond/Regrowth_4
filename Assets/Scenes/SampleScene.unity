@@ -1928,7 +1928,6 @@ GameObject:
   - component: {fileID: 564824749}
   - component: {fileID: 564824752}
   - component: {fileID: 564824753}
-  - component: {fileID: 564824754}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2013,19 +2012,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winUI: {fileID: 1422898039}
---- !u!114 &564824754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 564824748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18003650ab4aa4598967728a924d2026, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifeMustPop: 0
 --- !u!1 &574936355 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7179437920771951366, guid: 426711760d7ba4a159662b5dac6d0e6f,
